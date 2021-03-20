@@ -190,7 +190,8 @@ a.logo
     margin-top: 40px;
     
 } 
-}@media (max-width: 700px) 
+}
+@media (max-width: 700px) 
 {
     .dropdown-menu
 {
@@ -386,4 +387,22 @@ transform:scale(1.05);
     width: 100%;
     padding-top: 70px;
     padding-left: 30px;
+}
+@media (max-width: 700px) 
+{
+    .formu
+{
+    width: 300px;
+    margin-left:80px;
+    
+} 
+}
+@media (max-width: 700px) 
+{
+    .formin
+{
+    width: 70%;
+    margin-left: -10px;
+    
+} 
 }
