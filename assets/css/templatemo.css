@@ -33,7 +33,7 @@ ul, li,div{
   font-family: 'Roboto', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
-  color:limegreen
+  color:#119A2C
 }
 
 input,label,a,body,p{
@@ -105,9 +105,9 @@ a.logo
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color:red !important;}
-.text-muted { color:  #DAF7A6  !important;}
-.text-success { color:  #DAF7A6  !important;}
-.text-light { color:  blue !important;}
+.text-muted { color:  rgb(190, 14, 182)  !important;}
+.text-success { color:  #212529  !important;}
+.text-light { color: #114C9A !important;}
 .bg-dark { background-color:  #DAF7A6  !important;}
 .bg-light { background-color: #DAF7A6  !important;}
 .bg-black { background-color:  #DAF7A6  !important;}
@@ -212,7 +212,7 @@ a.logo
 #template-mo-zay-hero-carousel { background: #DAF7A6  !important;}
 /* Accordion */
 .templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.templatemo-accordion a:hover { color: #119A2C}
 /* Shop */
 .shop-top-menu a:hover { color:  #DAF7A6  !important;}
 /* Product */
@@ -272,7 +272,7 @@ a.logo
 .form-control { border: 1px solid #d63384;}
 /* Footer */
 #tempaltemo_footer a { color:rgb(190, 14, 182)}
-#tempaltemo_footer a:hover { color: #68bb7d;}
+#tempaltemo_footer a:hover { color: #119A2C}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
@@ -280,11 +280,11 @@ a.logo
   line-height: 2.6em;
 }
 #tempaltemo_footer ul.footer-icons li:hover {
-  background-color: green;
-  transition: .5s;
+  background-color: #119A2C
+  transition .5s;
 }
 #tempaltemo_footer ul.footer-icons li:hover i {
-  color: #212934;
+  color: #119A2C
   transition: .5s;
 }
 #tempaltemo_footer .border-light { border-color: #2d343f !important;}
