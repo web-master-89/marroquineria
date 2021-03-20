@@ -201,12 +201,13 @@ a.logo
     
 } 
 }
-.h2
+.h2,.nosotros
 {
     color: #F122C1;
     font-weight: 600;
     font-family: 'Chango', cursive;
 }
+
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #DAF7A6  !important;}
 /* Accordion */
@@ -323,3 +324,21 @@ a.logo
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+/*contacto*/
+.formulario
+{
+    
+    background-color: #DAF7A6 ;
+    border-top: 1px solid #010507;
+    border-bottom: 1px solid #010507;
+    
+}
+.inputfff
+{
+    color: #010507;
+    font-weight: 500;
+}
+.direccion
+{
+    margin-left: -17px;
+}
