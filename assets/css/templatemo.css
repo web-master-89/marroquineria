@@ -43,18 +43,19 @@ input,label,a,body,p{
 .shadow{
 
     height: 100px;
-    border-top: 2px solid #010507;
+    border-top: 3px solid #010507;
     border-bottom: 1px solid #010507;
 }
 .home
 {
-    margin-left: -30px;
+    margin-left: 20px;
     font-weight: 400;
 }
 a.logo
 {
     font-size: 25px;
-    margin-left: -30px;
+    margin-left: -20px;
+    font-family: 'Chango', cursive;
 }
 .linkis
 {
@@ -200,7 +201,12 @@ a.logo
     
 } 
 }
-
+.h2
+{
+    color: #F122C1;
+    font-weight: 600;
+    font-family: 'Chango', cursive;
+}
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #DAF7A6  !important;}
 /* Accordion */
