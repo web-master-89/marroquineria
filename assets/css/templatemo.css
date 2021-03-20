@@ -40,10 +40,51 @@ input,label,a,body,p{
 
   color: #0f0bff;
 }
-.nav{
+.shadow{
 
+    height: 100px;
+    border-top: 3px solid #010507;
+    border-bottom: 1px solid #010507;
+}
+.home
+{
+    margin-left: 20px;
+    font-weight: 400;
+}
+a.logo
+{
+    font-size: 25px;
+    margin-left: -20px;
+    font-family: 'Chango', cursive;
+}
+.linkis
+{
+    margin-left: -80px;  
+    font-size: 15px;
+}
+.links
+{
+    
+     font-weight: 400;
 
-  color:lightpink ;
+}
+.somos
+{
+    margin-left: -50px;
+}
+.dropdown
+{
+    margin-left: -70px;
+}
+.linkuno
+{
+    margin-left: -80px;
+}
+.linkdos
+{
+    margin-left: 35px;
+    margin-top: -44px;
+
 }
 .h1 {
   font-family: 'Roboto', sans-serif;
@@ -60,6 +101,7 @@ input,label,a,body,p{
   font-family: 'Roboto', sans-serif;
   font-size: 22px !important;
 }
+
 /* General */
 .logo { font-weight: 500 !important;}
 .text-warning {  color:red !important;}
@@ -85,7 +127,86 @@ input,label,a,body,p{
 #templatemo_main_nav a { color: red }
 #templatemo_main_nav a:hover { color:blue;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
-
+@media (max-width: 700px) {
+  a.logo {
+    font-size: 30px;
+    margin-left: -10px;
+    margin-top:-150px;
+  }
+}
+@media (max-width: 700px) 
+{
+    .home
+{
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: 18px;
+} 
+}
+@media (max-width: 700px) 
+{
+    .somos
+{
+    margin-left: -5px;
+    margin-top: -5px;
+    font-size: 18px;
+} 
+}
+@media (max-width: 700px) 
+{
+    .dropdown-toggle
+{
+    width: 80px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+} 
+}
+@media (max-width: 700px) 
+{
+    .shadow
+{
+    margin-bottom: 50px;
+    height: 250px;
+    
+} 
+}
+@media (max-width: 700px) 
+{
+    .contacto
+{
+    margin-left: 70px;
+    margin-top: 5px;
+    
+} 
+}
+@media (max-width: 700px) 
+{
+    .login
+{
+    margin-left: -45px;
+    margin-top: 40px;
+    
+} 
+}@media (max-width: 700px) 
+{
+    .dropdown-menu
+{
+    margin-bottom: 20px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: -100px;
+    
+} 
+}
+.h2
+{
+    color: #F122C1;
+    font-weight: 600;
+    font-family: 'Chango', cursive;
+}
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #DAF7A6  !important;}
 /* Accordion */
