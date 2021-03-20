@@ -106,7 +106,7 @@ a.logo
 .logo { font-weight: 500 !important;}
 .text-warning {  color:red !important;}
 .text-muted { color:  rgb(190, 14, 182)  !important;}
-.text-success { color:  #DAF7A6  !important;}
+.text-success { color:  #212529  !important;}
 .text-light { color: #114C9A !important;}
 .bg-dark { background-color:  #DAF7A6  !important;}
 .bg-light { background-color: #DAF7A6  !important;}
