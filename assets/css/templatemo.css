@@ -149,7 +149,7 @@ input,label,a,body,p{
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #d63384;}
 /* Footer */
-#tempaltemo_footer a { color:#d63384;}
+#tempaltemo_footer a { color:rgb(190, 14, 182)}
 #tempaltemo_footer a:hover { color: #68bb7d;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
@@ -158,7 +158,7 @@ input,label,a,body,p{
   line-height: 2.6em;
 }
 #tempaltemo_footer ul.footer-icons li:hover {
-  background-color: #d63384;
+  background-color: green;
   transition: .5s;
 }
 #tempaltemo_footer ul.footer-icons li:hover i {
