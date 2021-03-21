@@ -45,6 +45,7 @@ input,label,a,body,p{
     height: 100px;
     border-top: 3px solid #010507;
     border-bottom: 1px solid #010507;
+    background-color: #F8F9F9 ;
 }
 .home
 {
@@ -357,7 +358,7 @@ a.logo
 }
 .forms
 {
-    background-color: #17A173 ;
+    background-color: #17A589;
 }
 .formu
 {
@@ -376,10 +377,10 @@ a.logo
 .formu:hover
 {
     -webkit-transform:scale(1.05);
--moz-transform:scale(1.05);
--ms-transform:scale(1.05);
--o-transform:scale(1.05);
-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
 }
 .formin
 {
