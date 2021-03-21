@@ -190,7 +190,8 @@ a.logo
     margin-top: 40px;
     
 } 
-}@media (max-width: 700px) 
+}
+@media (max-width: 700px) 
 {
     .dropdown-menu
 {
@@ -201,12 +202,13 @@ a.logo
     
 } 
 }
-.h2
+.h2,.nosotros
 {
     color: #F122C1;
     font-weight: 600;
     font-family: 'Chango', cursive;
 }
+
 /* Hero Carousel */
 #template-mo-zay-hero-carousel { background: #DAF7A6  !important;}
 /* Accordion */
@@ -323,3 +325,84 @@ a.logo
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
+/*contacto*/
+.formulario
+{
+    
+    background-color: #DA651E ;
+    border-top: 3px solid #010507;
+    border-bottom: 1px solid #010507;
+    
+}
+.input
+{
+    color: #010507;
+    font-weight: 500;
+    font-family: 'Chango', cursive;
+}
+.direccion
+{
+    margin-left: -17px;
+}
+.contactanos
+{
+    color: #114C9A;
+    font-weight: 600;
+    font-family: 'Chango', cursive;
+}
+.ingreso
+{
+    border: 1px solid #010507;
+    margin-left: 50px;
+}
+.forms
+{
+    background-color: #17A173 ;
+}
+.formu
+{
+   margin-left: 250px;
+   border-radius: 1%;
+   width: 500px;
+   height: 400px;
+   border-top: 2px solid #010507;
+   border-left: 2px solid #010507;
+   border-bottom: 2px solid #010507;
+   border-right: 1px solid #010507;
+   background-color: #DAF7A6;
+   transition: all 0.9s ease-out;
+    
+}
+.formu:hover
+{
+    -webkit-transform:scale(1.05);
+-moz-transform:scale(1.05);
+-ms-transform:scale(1.05);
+-o-transform:scale(1.05);
+transform:scale(1.05);
+}
+.formin
+{
+    background-color: #DAF7A6;
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+@media (max-width: 700px) 
+{
+    .formu
+{
+    width: 300px;
+    margin-left:80px;
+    
+} 
+}
+@media (max-width: 700px) 
+{
+    .formin
+{
+    width: 70%;
+    margin-left: -10px;
+    
+} 
+}
